@@ -1250,10 +1250,20 @@ html body {
 
 .total-price {
   margin-top: 20px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   text-align: right;
   color: #333;
+}
+
+.total-price-with-discount {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: right;
+  color: gray;
+  text-decoration: line-through;
 }
 
 .remove-from-cart-button {
@@ -1370,6 +1380,12 @@ html body {
 .label-promocode {
   font-weight: 600;
   font-size: 25px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 @keyframes slideIn {
