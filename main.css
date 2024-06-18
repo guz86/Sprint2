@@ -1282,12 +1282,13 @@ html body {
 }
 
 .about-logo {
-  background-color: #1b9fbd;
   width: 200px;
   height: 75px;
   display: block;
   margin: 0 auto;
   background-image: url(/41e4a6ad4f1552d169b7.svg);
+  filter: invert(44%) sepia(63%) saturate(2881%) hue-rotate(168deg)
+    brightness(96%) contrast(101%);
 }
 
 .container-author {
@@ -1335,6 +1336,7 @@ html body {
 
 .basket-container {
   padding: 20px;
+  margin: 100px auto;
 }
 
 .cart {
@@ -1546,6 +1548,11 @@ html body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.shopping-cart {
+  text-align: center;
+  color: #ec4a3a;
 }
 
 @keyframes slideIn {
