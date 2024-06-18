@@ -996,6 +996,10 @@ label {
   right: 15px;
 }
 
+.button-change_wrapper {
+  margin: 40px;
+}
+
 @media (max-width: 900px) {
   .user-profile_information,
   .user-profile_default-addresses,
@@ -1376,6 +1380,7 @@ html body {
 }
 
 .product-name h3 {
+  margin-top: 20px;
   font-size: 1.1em;
 }
 
@@ -1412,7 +1417,6 @@ html body {
 
 .total-price {
   margin-top: 20px;
-  font-size: 1.3em;
   font-weight: bold;
   text-align: right;
   color: #333;
@@ -1421,7 +1425,6 @@ html body {
 .total-price-with-discount {
   margin-top: 20px;
   margin-left: 20px;
-  font-size: 1.3em;
   font-weight: bold;
   text-align: right;
   color: gray;
@@ -1470,10 +1473,6 @@ html body {
   height: 100px;
   display: flex;
   align-items: center;
-}
-
-.discount-container {
-  padding: 10px;
 }
 
 .input-promo {
@@ -1587,11 +1586,17 @@ html body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   .discount-form {
     flex-direction: column;
     height: 150px;
     justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .prices {
+    padding: 0;
+    font-size: 20px;
   }
 }
 
@@ -1599,6 +1604,20 @@ html body {
   .cart {
     padding: 10px;
     margin: 0px 10%;
+  }
+
+  .prices {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cart {
+    margin: 0px 5px;
+  }
+
+  .basket-container {
+    margin-top: 40px;
   }
 }
 
