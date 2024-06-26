@@ -254,27 +254,6 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  min-height: 100vh;
-  background-color: #fcfcfc;
-  /* background: linear-gradient(0.25turn, #b9f3ff, #181b35); */
-  padding-bottom: 40px;
-}
-
-/* h1 {
-  padding: 0 20px;
-} */
-
 .registration-form {
   width: 700px;
   background: #fff;
@@ -371,6 +350,22 @@ body {
   .registration-form {
     width: 90vw;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  background-color: #fcfcfc;
+  padding-bottom: 40px;
 }
 
 .view-details-button,
@@ -1041,15 +1036,8 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  /* padding-right: 20px;
-  font-weight: 400; */
 }
 
-a:link:hover,
-a:visited:hover,
-a:active:hover {
-  /* text-decoration: underline; */
-}
 html body {
   background-color: #fcfcfc;
 }
